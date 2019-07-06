@@ -6,7 +6,7 @@ A key concept is that few relations are needed to provide value, but for each ad
 Relationships
 -------------
 
-Use hasPoint instead of isPointOf. Similar goes for the rest of the relations. This allows the preprocessor of [the application test script](https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/apps/RUN_APPS.py) to do less preprocessing and not be quite as slow.
+Use hasPoint instead of isPointOf. Similar goes for the rest of the relations. This allows the preprocessor of [the application test script](/application_examples/RUN_APPS.py) to do less preprocessing and not be quite as slow.
 
 Constructing a simple VAV
 -------------------------
@@ -109,6 +109,6 @@ Missing Tags, TagSets and Relations may be added [here](https://docs.google.com/
 
 The current schema layout is:
 
--   Tags are in [/BuildingSchema/BrickTag.ttl](https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/BuildingSchema/BrickTag.ttl)
--   TagSets are in [/BuildingSchema/Brick.ttl](https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/BuildingSchema/Brick.ttl)
--   Relations are in [/BuildingSchema/BrickFrame.ttl](https://github.com/BuildSysUniformMetadata/GroundTruth/blob/master/BuildingSchema/BrickFrame.ttl)
+-   Tags are in [/BuildingSchema/BrickTag.ttl](/Brick/BrickTag.ttl)
+-   TagSets are in [/BuildingSchema/Brick.ttl](/Brick/Brick.ttl)
+-   Relations are in [/BuildingSchema/BrickFrame.ttl](/Brick/BrickFrame.ttl)
